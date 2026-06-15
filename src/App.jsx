@@ -1,3 +1,4 @@
+
 function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
@@ -69,9 +70,54 @@ function App() {
         id="services"
         className="max-w-6xl mx-auto px-6 py-24"
       >
-        <h2 className="text-5xl font-bold text-center mb-16">
-          Our Services
-        </h2>
+       <h2 className="text-5xl font-bold text-center mb-8">
+  Our Services
+</h2>
+
+<h3 className="text-center text-xl text-slate-300 mb-6">
+  Platforms We Manage
+</h3>
+
+<div className="flex justify-center gap-10 mb-6 flex-wrap">
+  
+
+  <img
+    src="/icons/icons8-facebook-500.png"
+    alt="Facebook"
+    className="h-14"
+  />
+
+  <img
+    src="/icons/icons8-instagram-500.png"
+    alt="Instagram"
+    className="h-14"
+  />
+
+  <img
+    src="/icons/icons8-linkedin-500.png"
+    alt="LinkedIn"
+    className="h-14"
+  />
+
+  <img
+    src="/icons/icons8-youtube-500.png"
+    alt="YouTube"
+    className="h-14"
+  />
+
+  <img
+    src="/icons/icons8-whatsapp-500.png"
+    alt="WhatsApp"
+    className="h-14"
+  />
+
+  <img
+    src="/icons/icons8-x-500.png"
+    alt="X"
+    className="h-14"
+  />
+  
+</div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
@@ -175,7 +221,7 @@ function App() {
     Flexible solutions for businesses at every stage of growth.
   </p>
 
-  ```jsx
+  
 <div className="grid md:grid-cols-4 gap-8">
 
   {/* Starter */}
