@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lr-catalystmarketing-e6g9kwswa.vercel.app/sitemap.xml
